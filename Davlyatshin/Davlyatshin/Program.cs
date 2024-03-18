@@ -14,3 +14,6 @@ for (int i = 0; i < result2.Count; i++)
     }
     Console.WriteLine();
 }
+
+var result3 = Solution.MinCostConnectPoints([[0, 0], [2, 2], [3, 10], [5, 2], [7, 0]]);
+Console.WriteLine(result3);
