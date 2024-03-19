@@ -17,3 +17,6 @@ for (int i = 0; i < result2.Count; i++)
 
 var result3 = Solution.MinCostConnectPoints([[0, 0], [2, 2], [3, 10], [5, 2], [7, 0]]);
 Console.WriteLine(result3);
+
+var result4 = Solution.EdgeScore([1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]);
+Console.WriteLine(result4);
