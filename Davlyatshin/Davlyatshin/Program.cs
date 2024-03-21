@@ -1,5 +1,7 @@
 ﻿using Davlyatshin;
 
+var Solution = new Solution();
+
 var result = Solution.GardenNoAdj(4, [[1, 2], [3, 4]]);
 Console.WriteLine(string.Join(" ", result));
 

@@ -1,8 +1,8 @@
 ﻿namespace Davlyatshin
 {
-    public static partial class Solution
+    public partial class Solution
     {
-        public static int MinCostConnectPoints(int[][] points)
+        public int MinCostConnectPoints(int[][] points)
         {
             var dist = new int[points.Length];
             for (int i = 1; i < points.Length; ++i)

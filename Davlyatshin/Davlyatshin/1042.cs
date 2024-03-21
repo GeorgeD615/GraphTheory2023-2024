@@ -1,8 +1,8 @@
 ﻿namespace Davlyatshin
 {
-    public static partial class Solution
+    public partial class Solution
     {
-        public static int[] GardenNoAdj(int n, int[][] paths)
+        public int[] GardenNoAdj(int n, int[][] paths)
         {
             var graph = new List<int>[n];
             for (int i = 0; i < n; ++i)

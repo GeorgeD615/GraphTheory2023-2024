@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Davlyatshin
 {
-    public static partial class Solution
+    public partial class Solution
     {
-        public static int EdgeScore(int[] edges)
+        public int EdgeScore(int[] edges)
         {
             var edgesScores = new long[edges.Length];
             for (int i = 0; i < edges.Length; ++i)

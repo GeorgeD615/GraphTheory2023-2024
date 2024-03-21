@@ -7,28 +7,28 @@ using System.Xml.Schema;
 
 namespace Davlyatshin
 {
-    public static partial class Solution
+    public partial class Solution
     {
-        private static int[] dsuTree;
-        private static void MakeSet(int v)
+        private int[] dsuTree;
+        private void MakeSet(int v)
         {
             dsuTree[v] = v;
         }
 
-        private static int Find(int v)
+        private int Find(int v)
         {
             if (dsuTree[v] == v) return v;
             return dsuTree[v] = Find(dsuTree[v]);
         }
 
-        private static void Union(int u, int v)
+        private void Union(int u, int v)
         {
             u = Find(u);
             v = Find(v);
             dsuTree[u] = v;
         }
 
-        public static bool[] DistanceLimitedPathsExist(int n, int[][] edgeList, int[][] queries)
+        public bool[] DistanceLimitedPathsExist(int n, int[][] edgeList, int[][] queries)
         {
             var result = new bool[queries.Length];
             dsuTree = new int[n];
