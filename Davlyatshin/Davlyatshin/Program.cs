@@ -34,3 +34,6 @@ var result5 = Solution.DistanceLimitedPathsExist(13, [[9, 1, 53], [3, 2, 66], [1
                                                     [6, 10, 48], [12, 0, 91], [9, 10, 58], [9, 8, 73], [2, 3, 44], 
                                                     [7, 11, 83], [5, 3, 14], [6, 2, 33]]);
 Console.WriteLine(string.Join(" ", result5));
+
+var result6 = Solution.MaximumDetonation([[1, 2, 3], [2, 3, 1], [3, 4, 2], [4, 5, 3], [5, 6, 4]]);
+Console.WriteLine(result6);
