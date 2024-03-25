@@ -37,3 +37,6 @@ Console.WriteLine(string.Join(" ", result5));
 
 var result6 = Solution.MaximumDetonation([[1, 2, 3], [2, 3, 1], [3, 4, 2], [4, 5, 3], [5, 6, 4]]);
 Console.WriteLine(result6);
+
+var result7 = Solution.CanVisitAllRooms([[1, 3], [3, 0, 1], [2], [0]]);
+Console.WriteLine(result7);
